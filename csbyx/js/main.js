@@ -11,7 +11,7 @@ $(document).on('pagecreate', function(event) {
 				options = item.options.split('|'),
 				answerIndex = item.answer,
 				answer = options[answerIndex - 1];
-			tpl += '<li data-role="list-divider">' + question +
+			tpl += '<li data-role="list-divider">' + no + '、' + question +
 				'	<span class="ui-li-count">' + answerIndex + '</span>' +
 				'</li>' +
 				'<li>' +
